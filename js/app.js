@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const text = input ? input.value.trim() : '';
 
     if (!text) {
-      if (errorMsg) errorMsg.style.display = 'block';
+     if (errorMsg) errorMsg.classList.remove('hidden');
       return;
     }
 
